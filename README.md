@@ -23,4 +23,5 @@ https://cloud-club.github.io/cloudclub-homepage/
 
 ### Contributor
 <a href="https://github.com/gineepark"><img src="https://avatars.githubusercontent.com/u/60264957?v=4" width="100px;" alt=""/><br /><sub><b>박진희</b></sub></a>
+<a href="https://github.com/jungmir"><img src="https://avatars.githubusercontent.com/u/61821253?v=4" width="100px;" alt=""/><br /><sub><b>정미르</b></sub></a>
 
