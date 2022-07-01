@@ -22,6 +22,9 @@ https://cloud-club.github.io/cloudclub-homepage/
 <br>
 
 ### Contributor
-<a href="https://github.com/gineepark"><img src="https://avatars.githubusercontent.com/u/60264957?v=4" width="100px;" alt=""/><br /><sub><b>박진희</b></sub></a>
-<a href="https://github.com/jungmir"><img src="https://avatars.githubusercontent.com/u/61821253?v=4" width="100px;" alt=""/><br /><sub><b>정미르</b></sub></a>
-
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/gineepark"><img src="https://avatars.githubusercontent.com/u/60264957?v=4" width="100px;" alt=""/><br /><sub><b>박진희</b></sub></a><br /><a\>🧑‍💼<br>Automation<br>CI/CD</a></td>
+   <td align="center"><a href="https://github.com/jungmir"><img src="https://avatars.githubusercontent.com/u/61821253?v=4" width="100px;" alt=""/><br /><sub><b>정미르</b></sub></a><br /><a\>🤵‍♀️<br>FE<br>프론트 개발</a></td>
+  </tr>
+  </table>
