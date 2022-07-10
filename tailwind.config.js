@@ -2,9 +2,13 @@
 module.exports = {
   mode: 'jit',
   content: ['./src/**/*.{jsx,js}', './public/**/*.html'],
-  darkMode: true,
+  darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'default-cover': 'url("/assets/default-cover.jpeg")',
+      },
+    },
     minWidth: {
       logo: '8rem',
     },
@@ -13,5 +17,5 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
