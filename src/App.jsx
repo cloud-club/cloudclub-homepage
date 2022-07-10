@@ -8,13 +8,10 @@ import Intro from './pages/Intro';
 import Plan from './pages/Plan';
 import Apply from './pages/Apply';
 
-// import structurePath from './assets/contents/structure.yaml';
-/* eslint-disable import/extensions */
-import structureJson from './assets/contents/structure';
+import structureJson from './assets/contents/structure.json';
 
 const jsonData = JSON.stringify(structureJson);
 const { pages } = JSON.parse(jsonData);
-// console.log(pages);
 
 function App() {
   return (
