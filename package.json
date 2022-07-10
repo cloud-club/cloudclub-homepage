@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^4.0.0",
+    "js-yaml": "^4.1.0",
     "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-markdown": "^8.0.3",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "remark-gfm": "^3.0.1",
+    "web-vitals": "^2.1.4",
+    "yaml": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
