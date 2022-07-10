@@ -1,0 +1,39 @@
+{
+  "pages": [
+    {
+      "type": "Logo",
+      "title": "Main",
+      "name": "로고",
+      "url": "/cloudclub-homepage",
+      "img": "https://i.ibb.co/Dw3Wz7f/001-1.png"
+    },
+    {
+      "type": "Menu",
+      "title": "Intro",
+      "name": "소개",
+      "url": "/intro",
+      "img": ""
+    },
+    {
+      "type": "Menu",
+      "title": "Activities",
+      "name": "1기 활동",
+      "url": "/activities",
+      "img": ""
+    },
+    {
+      "type": "Menu",
+      "title": "Plan",
+      "name": "운영 계획",
+      "url": "/plan",
+      "img": ""
+    },
+    {
+      "type": "Menu",
+      "title": "Apply",
+      "name": "2기 지원하기",
+      "url": "/apply",
+      "img": ""
+    }
+  ]
+}
