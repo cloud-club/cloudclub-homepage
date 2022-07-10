@@ -1,22 +1,15 @@
 // eslint-disable-next-line
-import reportWebVitals from './reportWebVitals';
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import './global.css';
 import App from './App';
-import TopNav from './components/Navigation/TopNav';
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <header className="Header h-max sm:h-14 md:h-14 lg:h-14">
-      <TopNav />
-    </header>
-    <section>
-      <App />
-    </section>
-    <footer />
+    <App />
   </React.StrictMode>,
 );
 
