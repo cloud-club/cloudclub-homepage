@@ -14,6 +14,11 @@ import structureJson from './assets/contents/structure.json';
 const jsonData = JSON.stringify(structureJson);
 const { pages } = JSON.parse(jsonData);
 
+function getUrl(name) {
+  const matched = pages.filter((value) => value.title === name);
+  return matched[0].url;
+}
+
 function App() {
   return (
     <section className="MainSection sm:block">
@@ -24,11 +29,11 @@ function App() {
         </header>
         <section>
           <Routes>
-            <Route path="" element={<Main />} />
-            <Route path="intro" element={<Intro />} />
-            <Route path="activities" element={<Activities />} />
-            <Route path="plan" element={<Plan />} />
-            <Route path="apply" element={<Apply />} />
+            <Route path={getUrl('Main')} element={<Main />} />
+            <Route path={getUrl('Intro')} element={<Intro />} />
+            <Route path={getUrl('Activities')} element={<Activities />} />
+            <Route path={getUrl('Plan')} element={<Plan />} />
+            <Route path={getUrl('Apply')} element={<Apply />} />
           </Routes>
         </section>
         <footer />
