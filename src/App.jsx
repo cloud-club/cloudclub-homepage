@@ -2,6 +2,7 @@ import React from 'react';
 // import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TopNav from './components/Navigation/TopNav';
+import ScrollTracer from './components/Scroll/Tracer';
 import Main from './pages/Main';
 import Activities from './pages/Activities';
 import Intro from './pages/Intro';
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <header className="Header inline-block sticky h-max w-full top-0 sm:h-14 md:h-14 lg:h-14">
           <TopNav menuList={pages} />
+          <ScrollTracer />
         </header>
         <section>
           <Routes>
