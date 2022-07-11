@@ -24,7 +24,7 @@ function App() {
         </header>
         <section>
           <Routes>
-            <Route path="cloudclub-homepage" element={<Main />} />
+            <Route path="" element={<Main />} />
             <Route path="intro" element={<Intro />} />
             <Route path="activities" element={<Activities />} />
             <Route path="plan" element={<Plan />} />
