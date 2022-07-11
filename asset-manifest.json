@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/cloudclub-homepage/static/css/main.da20af3f.css",
-    "main.js": "/cloudclub-homepage/static/js/main.64bfe9bd.js",
+    "main.js": "/cloudclub-homepage/static/js/main.cfaa906f.js",
     "static/js/787.3f1c6ae2.chunk.js": "/cloudclub-homepage/static/js/787.3f1c6ae2.chunk.js",
     "static/media/default-cover.jpeg": "/cloudclub-homepage/static/media/default-cover.0799a4c4b3e6399d959d.jpeg",
     "static/media/cover.png": "/cloudclub-homepage/static/media/cover.415898698aa59ee88927.png",
     "static/media/page.md": "/cloudclub-homepage/static/media/page.3121bbe0a7b513cc3669.md",
     "index.html": "/cloudclub-homepage/index.html",
     "main.da20af3f.css.map": "/cloudclub-homepage/static/css/main.da20af3f.css.map",
-    "main.64bfe9bd.js.map": "/cloudclub-homepage/static/js/main.64bfe9bd.js.map",
+    "main.cfaa906f.js.map": "/cloudclub-homepage/static/js/main.cfaa906f.js.map",
     "787.3f1c6ae2.chunk.js.map": "/cloudclub-homepage/static/js/787.3f1c6ae2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da20af3f.css",
-    "static/js/main.64bfe9bd.js"
+    "static/js/main.cfaa906f.js"
   ]
 }
