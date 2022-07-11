@@ -11,28 +11,28 @@
       "type": "Menu",
       "title": "Intro",
       "name": "소개",
-      "url": "/cloudclub-homepage/intro",
+      "url": "/intro",
       "img": ""
     },
     {
       "type": "Menu",
       "title": "Activities",
       "name": "1기 활동",
-      "url": "/cloudclub-homepage/activities",
+      "url": "/activities",
       "img": ""
     },
     {
       "type": "Menu",
       "title": "Plan",
       "name": "운영 계획",
-      "url": "/cloudclub-homepage/plan",
+      "url": "/plan",
       "img": ""
     },
     {
       "type": "Menu",
       "title": "Apply",
       "name": "2기 지원하기",
-      "url": "/cloudclub-homepage/apply",
+      "url": "/apply",
       "img": ""
     }
   ]
