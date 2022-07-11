@@ -6,7 +6,7 @@ import Markdown from '../components/Markdown/Markdown';
 
 function Plan() {
   return (
-    <Markdown contentsPath={PlanPage} coverImagePath={PlanCoverImage} />
+    <Markdown contentsFile={PlanPage} coverImageFile={PlanCoverImage} />
   );
 }
 

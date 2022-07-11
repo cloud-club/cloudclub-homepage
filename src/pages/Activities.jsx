@@ -6,7 +6,7 @@ import Markdown from '../components/Markdown/Markdown';
 
 function Activities() {
   return (
-    <Markdown contentsPath={ActivitiesPage} coverImagePath={ActivitiesCoverImage} />
+    <Markdown contentsFile={ActivitiesPage} coverImageFile={ActivitiesCoverImage} />
   );
 }
 

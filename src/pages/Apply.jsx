@@ -6,7 +6,7 @@ import Markdown from '../components/Markdown/Markdown';
 
 function Apply() {
   return (
-    <Markdown contentsPath={ApplyPage} coverImagePath={ApplyCoverImage} />
+    <Markdown contentsFile={ApplyPage} coverImageFile={ApplyCoverImage} />
   );
 }
 

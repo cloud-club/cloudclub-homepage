@@ -5,15 +5,15 @@ import remarkGfm from 'remark-gfm';
 import defaultCover from '../../assets/images/default-cover.jpeg';
 
 /* eslint-disable react/no-children-prop */
-function Markdown({ contentsPath, coverImagePath }) {
+function Markdown({ contentsFile, coverImageFile }) {
   const [contents, setContents] = useState('');
   const [coverImage, setCoverImage] = useState('');
 
   useEffect(() => {
-    fetch(contentsPath)
+    fetch(contentsFile)
       .then((res) => res.text())
       .then((rawData) => setContents(rawData));
-    setCoverImage(coverImagePath);
+    setCoverImage(coverImageFile);
   }, []);
 
   return (
@@ -31,12 +31,12 @@ function Markdown({ contentsPath, coverImagePath }) {
 }
 
 Markdown.propTypes = {
-  contentsPath: PropTypes.string.isRequired,
-  coverImagePath: PropTypes.string,
+  contentsFile: PropTypes.string.isRequired,
+  coverImageFile: PropTypes.string,
 };
 
 Markdown.defaultProps = {
-  coverImagePath: '',
+  coverImageFile: '',
 };
 
 export default Markdown;

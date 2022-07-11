@@ -6,7 +6,7 @@ import Markdown from '../components/Markdown/Markdown';
 
 function Main() {
   return (
-    <Markdown contentsPath={MainPage} coverImagePath={MainCoverImage} />
+    <Markdown contentsFile={MainPage} coverImageFile={MainCoverImage} />
   );
 }
 
