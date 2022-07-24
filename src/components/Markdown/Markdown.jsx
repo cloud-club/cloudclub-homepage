@@ -23,7 +23,7 @@ function Markdown({ contentsFile, coverImageFile }) {
         <ReactMarkdown
           children={contents}
           remarkPlugins={[remarkGfm]}
-          className="MarkdownContents w-1/2"
+          className="MarkdownContents w-3/4"
         />
       </article>
     </section>

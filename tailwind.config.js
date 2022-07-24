@@ -5,6 +5,25 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            ul: {
+              'li::marker': {
+                color: 'black',
+              },
+            },
+            strong: {
+              color: 'rgb(33, 136, 243)',
+            },
+            hr: {
+              marginTop: '3em',
+              marginBottom: '1em',
+              border: '1px solid rgb(228, 227, 226)',
+            },
+          },
+        },
+      },
       backgroundImage: {
         'default-cover': 'url("/assets/default-cover.jpeg")',
       },
