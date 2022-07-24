@@ -18,7 +18,7 @@ function Markdown({ contentsFile, coverImageFile }) {
 
   return (
     <section>
-      <img className="CoverImage w-full mb-20 object-cover max-h-96" src={coverImage || defaultCover} alt="cover" />
+      <img className="CoverImage hidden w-full mb-20 object-cover max-h-96 sm:block md:block lg:block" src={coverImage || defaultCover} alt="cover" />
       <article className="prose prose-zinc flex max-w-full justify-center lg:prose-lg">
         <ReactMarkdown
           children={contents}
