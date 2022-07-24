@@ -5,7 +5,6 @@ import TopNav from './components/Navigation/TopNav';
 import ScrollTracer from './components/Scroll/Tracer';
 import Main from './pages/Main';
 import Activities from './pages/Activities';
-import Intro from './pages/Intro';
 import Plan from './pages/Plan';
 import Apply from './pages/Apply';
 
@@ -38,7 +37,6 @@ function App() {
         <section>
           <Routes>
             <Route path={getUrl('Main')} element={<Main />} />
-            <Route path={getUrl('Intro')} element={<Intro />} />
             <Route path={getUrl('Activities')} element={<Activities />} />
             <Route path={getUrl('Plan')} element={<Plan />} />
             <Route path={getUrl('Apply')} element={<Apply />} />

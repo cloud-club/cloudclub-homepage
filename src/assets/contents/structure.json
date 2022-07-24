@@ -9,13 +9,6 @@
     },
     {
       "type": "Menu",
-      "title": "Intro",
-      "name": "소개",
-      "url": "/cloudclub-homepage/intro",
-      "img": ""
-    },
-    {
-      "type": "Menu",
       "title": "Activities",
       "name": "1기 활동",
       "url": "/cloudclub-homepage/activities",

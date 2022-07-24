@@ -5,7 +5,9 @@ import remarkGfm from 'remark-gfm';
 import defaultCover from '../../assets/images/default-cover.jpeg';
 
 /* eslint-disable react/no-children-prop */
-function Markdown({ contentsFile, coverImageFile }) {
+function Markdown({
+  contentsFile, coverImageFile, contentsImages,
+}) {
   const [contents, setContents] = useState('');
   const [coverImage, setCoverImage] = useState('');
 
@@ -24,6 +26,21 @@ function Markdown({ contentsFile, coverImageFile }) {
           children={contents}
           remarkPlugins={[remarkGfm]}
           className="MarkdownContents w-3/4"
+          components={{
+            /* eslint-disable react/no-unstable-nested-components */
+            /* eslint react/prop-types: 0 */
+            img({ node, ...props }) {
+              let convertSrc = props.src;
+              const temp = convertSrc.split('/');
+              convertSrc = temp[temp.length - 1];
+              return (
+                <img
+                  src={contentsImages[convertSrc] ? contentsImages[convertSrc] : 'test'}
+                  alt={props.alt}
+                />
+              );
+            },
+          }}
         />
       </article>
     </section>
@@ -33,10 +50,12 @@ function Markdown({ contentsFile, coverImageFile }) {
 Markdown.propTypes = {
   contentsFile: PropTypes.string.isRequired,
   coverImageFile: PropTypes.string,
+  contentsImages: PropTypes.arrayOf(String),
 };
 
 Markdown.defaultProps = {
   coverImageFile: '',
+  contentsImages: '',
 };
 
 export default Markdown;
