@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import LogoImage from '../../assets/images/homepage_logo.png';
 
 function Menu({ menu }) {
   return (
@@ -8,7 +9,7 @@ function Menu({ menu }) {
       {menu.type === 'Logo'
         ? (
           <Link to={menu.url} className="Logo text-opacity-0 flex justify-center items-center sm:h-full">
-            <img className="LogoImage flex items-center justify-center min-h-logo min-w-logo" src={menu.img} alt="" />
+            <img className="LogoImage flex items-center justify-center min-h-logo min-w-logo" src={LogoImage || menu.img} alt="" />
           </Link>
         )
         : <Link to={menu.url} className="Menu block w-full h-full"><b className="MenuName flex h-full items-center justify-center">{menu.name}</b></Link>}
