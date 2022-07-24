@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import PropTypes from 'prop-types';
 
 function Tracer() {
   const [progress, setProgress] = useState({ width: 0 });
@@ -19,9 +18,5 @@ function Tracer() {
     </section>
   );
 }
-
-// Tracer.propTypes = {
-//   scrollPosition: PropTypes.number.isRequired,
-// };
 
 export default Tracer;
