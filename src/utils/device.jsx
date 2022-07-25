@@ -7,7 +7,6 @@ export default function isMobile() {
     ) != null
     || userAgent.match(/LG|SAMSUNG|Samsung/) != null
   ) {
-    console.log('is Mobile', userAgent);
     return true;
   }
   return false;
