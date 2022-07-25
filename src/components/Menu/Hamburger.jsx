@@ -27,11 +27,11 @@ function Hamburger({ menuList }) {
       </nav>
       <section>
         <div
-          className={`MenuItems bg-black text-white absolute w-full ${isOpen ? 'block' : 'hidden'}`}
+          className={`MenuItems bg-white text-black absolute mt-1 w-full border-solid border-gray-200 border-t-2 border-l-2 border-r-2 ${isOpen ? 'block' : 'hidden'}`}
         >
           {subMenuList.map((menu) => (
             <a href="/" onClick={moveHandler}>
-              <Link to={menu.url} className="Menu block w-full h-12 mb-2 mt-2">
+              <Link to={menu.url} className="Menu block w-full h-12 border-solid border-gray-200 border-b-2">
                 <b className="MenuName flex h-full items-center justify-center">{menu.name}</b>
               </Link>
             </a>
