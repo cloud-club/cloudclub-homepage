@@ -24,6 +24,9 @@ module.exports = {
           },
         },
       },
+      maxWidth: {
+        logo: '200px',
+      },
       backgroundImage: {
         'default-cover': 'url("/assets/default-cover.jpeg")',
       },

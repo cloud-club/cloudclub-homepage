@@ -2,10 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TopNav from './components/Navigation/TopNav';
-import ScrollTracer from './components/Scroll/Tracer';
 import Main from './pages/Main';
 import Activities from './pages/Activities';
-import Intro from './pages/Intro';
 import Plan from './pages/Plan';
 import Apply from './pages/Apply';
 
@@ -31,14 +29,12 @@ function App() {
   return (
     <section className="MainSection sm:block">
       <Router>
-        <header className="Header inline-block sticky h-max w-full top-0 sm:h-14 md:h-14 lg:h-14">
+        <header className="Header block sticky h-max w-full top-0">
           <TopNav menuList={pages} />
-          <ScrollTracer />
         </header>
         <section>
           <Routes>
             <Route path={getUrl('Main')} element={<Main />} />
-            <Route path={getUrl('Intro')} element={<Intro />} />
             <Route path={getUrl('Activities')} element={<Activities />} />
             <Route path={getUrl('Plan')} element={<Plan />} />
             <Route path={getUrl('Apply')} element={<Apply />} />
